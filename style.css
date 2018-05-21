@@ -1,7 +1,4 @@
-div.container {
-    background-color:orange;
-    overflow: hidden;
-    height:400px;
-    width: 100%;
-    margin-bottom:20px;
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
 }
